@@ -1,6 +1,6 @@
 .VendingMachine {
     height: 100vh;
-    background-image: url('vending-machine.jpg');
+    background-image: url('images/vending-machine.jpg');
     display: flex;
     gap: 25rem;
     justify-content: center;
