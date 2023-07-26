@@ -1,0 +1,22 @@
+.Soda {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.Soda-container {
+    align-self: center;
+    background-color: #424040;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.Soda-back {
+    color: white;
+    text-decoration: none;
+}
+
+.Soda-back:hover {
+    text-decoration: underline;
+}
