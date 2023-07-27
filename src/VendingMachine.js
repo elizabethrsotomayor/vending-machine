@@ -11,7 +11,17 @@ import Sardines from './Sardines';
 import './VendingMachine.css';
 
 class VendingMachine extends Component {
+    constructor(props) {
+        super(props);
+        this.resetChips = this.resetChips.bind(this);
+    }
+
+    resetChips() {
+        document.querySelectorAll('.Chips-bag').forEach(e => e.remove());
+    }
+
     render() {
+        this.resetChips();
         return (
             <div className="VendingMachine">
                 <div className="VendingMachine-container">

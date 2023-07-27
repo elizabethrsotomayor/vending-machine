@@ -1,0 +1,17 @@
+.Sardines {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/sardines.gif);
+    background-size: cover;
+}
+
+.Sardines-container {
+    align-self: center;
+    background-color: #424040;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

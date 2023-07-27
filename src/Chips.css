@@ -1,0 +1,28 @@
+.Chips {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+}
+
+.Chips-container {
+    background-color: #424040;
+    align-self: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.Chips-back {
+    text-decoration: none;
+    color: white;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.Chips-back:hover {
+    text-decoration: underline;
+}
